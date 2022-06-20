@@ -11,7 +11,7 @@ This project was developed using:
 ## Step to Run Development Server
 
 1. Run MySQL client in your machine.
-2. Navigate to /src/app.module.ts and change the database name, user, and password according to your machine's MySQL client configuration.
+2. Navigate to [/src/app.module.ts](https://github.com/faiz-codes/cdn-backend/blob/main/src/app.module.ts) and change the database name, user, and password according to your machine's MySQL client configuration.
 ```bash
     TypeOrmModule.forRoot({
       type: 'mysql',
